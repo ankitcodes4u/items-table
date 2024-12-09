@@ -14,7 +14,7 @@ class Opportunities extends Component
     #[Url(as: 'per_page', except: '')]
     public ?int $perPage = 20;
 
-    public ?array $options = [20, 50, 100, 250];
+    public ?array $options = [20, 50, 100, 250, 500];
 
     public ?string $search = '';
     
